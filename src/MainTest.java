@@ -6,7 +6,7 @@ class MainTest {
     void numberOfVowels() {
         String one = "let him cook";
         String two = "relax, you're doing fine";
-        String three = "aaaaah!!!";
+        String three = "aaaah!!!";
         assertTrue(Main.numberOfVowels(one) == 4);
         assertTrue(Main.numberOfVowels(two) == 9);
         assertTrue(Main.numberOfVowels(three) == 5);
